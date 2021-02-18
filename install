@@ -1058,6 +1058,3 @@ menu() {
         ;;
     esac
 }
-
-judge_mode
-list "$1"
