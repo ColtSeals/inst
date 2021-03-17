@@ -26,4 +26,4 @@ echo -ne "\nâ€” ${YELLOW}A SEGUIR DESATIVE O WIFI E ATIVE OS \n  DADOS MOVE
 echo -e "\nâ€” ${GREEN}DNS INICIADO E PRONTO PARA CONEXÃƒO${SCOLOR}"
 echo -ne "\nâ€” ${GREEN}ENTER ${RED}PARA DESCONECTAR ${SCOLOR}"; read
 piddns=$(ps x| grep -w 'dns' | grep -v 'grep'| awk -F' ' {'print $1'})
-[[ $ {piddns} ! =  '' ]] && kill  $ {piddns} > / dev / null 2 > & 1
+[[ $ {piddns}! = '']] && kill   $ {piddns}> / dev / null 2> & 1
