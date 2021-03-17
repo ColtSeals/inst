@@ -13,7 +13,7 @@ CORTITLE='\033[1;41m'
 SCOLOR='\033[0m'
 
 echo -e "${CORTITLE}=====================================${SCOLOR}"
-echo -e "${CORTITLE}   NERDS•VPN SPEED DNS  â€”  BY @ColtSeals   ${SCOLOR}"
+echo   -e   " $ {CORTITLE} NERDS • VPN DNS - POR @ColtSeals $ {SCOLOR}
 echo -e "${CORTITLE}=====================================${SCOLOR}"
 [[ ! -e dns ]] && {
     echo -e "\nâ€” ${YELLOW}INICIANDO CONFIGURAÃ‡ÃƒO...${SCOLOR}"
@@ -26,4 +26,4 @@ echo -ne "\nâ€” ${YELLOW}A SEGUIR DESATIVE O WIFI E ATIVE OS \n  DADOS MOVE
 echo -e "\nâ€” ${GREEN}DNS INICIADO E PRONTO PARA CONEXÃƒO${SCOLOR}"
 echo -ne "\nâ€” ${GREEN}ENTER ${RED}PARA DESCONECTAR ${SCOLOR}"; read
 piddns=$(ps x| grep -w 'dns' | grep -v 'grep'| awk -F' ' {'print $1'})
-[[ ${piddns} != '' ]] && kill ${piddns} > /dev/null 2>&1
+[[ $ {piddns} ! =  '' ]] && kill  $ {piddns} > / dev / null 2 > & 1
