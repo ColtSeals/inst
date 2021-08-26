@@ -75,7 +75,7 @@ else
     clear
     echo -e "\033[1;31m ERRO AO IMPORTAR BANCO DE DADOS\033[0m"
     sleep 2
-    rm /root/install.sh > /dev/null 2>&1
+    rm /root/install > /dev/null 2>&1
     exit
 fi
 service apache2 restart > /dev/null 2>&1
