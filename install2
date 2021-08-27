@@ -1,4 +1,4 @@
-
+#!/bin/bash
 apt-get install php5-curl > /dev/null 2>&1
 service apache2 restart > /dev/null 2>&1
 clear
