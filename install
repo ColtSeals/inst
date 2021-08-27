@@ -36,4 +36,3 @@ if [ "$(php -m |grep ssh2)" = "ssh2" ]; then
   true
 else
   clear
-  
